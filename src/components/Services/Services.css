@@ -1,0 +1,117 @@
+.services__container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services__description{
+    width: 30%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.image__container{
+    width: 30%;
+    /* background-color: yellow; */
+    display:flex;
+    justify-content: center;
+}
+.image__container > img {
+    height: 400px;
+    width: 400px;
+    object-fit: fill;
+}
+
+.tech__container{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.services__wrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.services{
+    display: flex;
+    flex-direction:column;
+    width: 50%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.app__dev{
+    background-color: limegreen;
+}
+
+.tech__img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+
+.web__development{
+    display: flex;
+    padding: 50px;
+}
+
+.web__description{
+    width: 60%;
+}
+
+.web__image__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uiux__container{
+    display: flex;
+    flex-direction: row;
+}
+
+.uiux__banner{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uiux__banner > img{
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+}
+
+.uiux__description{
+    width: 40%;
+    margin: auto;
+}
+
+.tool__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.tool__image{
+    height: 40px;
+    width: 40px;
+    object-fit:contain;
+}
+
+.ai__container{
+    display: flex;
+}
+
+.ai__description{
+    width: 40%;
+}
+
+.ai__banner{
+    width: 60%;
+    display: grid;
+    place-items: center;
+}

@@ -1,0 +1,65 @@
+.blue {
+    padding: 0;
+}
+
+.blue ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.blue li {
+    position: relative;
+}
+
+.blue>ul>li {
+    white-space: nowrap;
+    padding: 10px 0 10px 28px;
+}
+
+.blue a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3px;
+    font-size: 18px;
+    font-family: "Teko";
+    letter-spacing: 2px;
+    white-space: nowrap;
+    transition: 0.3s;
+    position: relative;
+}
+
+.blue a i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+}
+
+.blue>ul>li>a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -6px;
+    left: 0;
+    background-color: #9723c9;
+    visibility: hidden;
+    width: 0px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.blue a:hover:before,
+.blue li:hover>a:before,
+.blue .active:before {
+    visibility: visible;
+    width: 100%;
+}
+
+.blue a:hover,
+.blue .active,
+.blue li:hover>a {
+    color: #9723c9;
+}

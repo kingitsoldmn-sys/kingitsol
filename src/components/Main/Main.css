@@ -1,0 +1,23 @@
+.main__section{
+    display: flex;
+    flex-direction: row;
+}
+
+.getting__started__container{
+    width:40%;
+    padding: 50px;
+}
+
+.get__started__btn{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 30px;
+    width: 240px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.watch__btn{
+    text-decoration: none;
+    padding: 10px;
+}

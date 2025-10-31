@@ -1,0 +1,25 @@
+.alerts-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: #222;
+  color: blue;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.alerts-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.alert-slide {
+  min-width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  background: aliceblue; /* Alert Background */
+}
