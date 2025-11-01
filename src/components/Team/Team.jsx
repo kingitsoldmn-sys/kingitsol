@@ -18,7 +18,7 @@ const BoardOfDirectors = () => {
       <Container>
         <Row>
           <div className="section-title">
-            <h3>Board of Directors</h3>
+            <h3>Board of Director</h3>
           </div>
         </Row>
 
